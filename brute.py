@@ -141,30 +141,36 @@ def pass_noobs():
 def runn_noobs():
          global password_list
          nob = GG+"""
-	                                `...--...`                                        
-                                   .:/osyyyyyyyyyyso+:.                                   
-                                -/syyyyyso++//++osyyyyys+-                                
-                              :syyyy+:.            .:+yyyys:`                             
-                            -syyyo-                    -oyyys-                            
-                          `+hhhs..yys+:` ..---...``:+syy..shhh+`                          
-                         `shhh/  /hhhhhhhhhhhhhhhhhhhhhh/  /hhhs`                         
-                         ohhh:   :hhhhhhhhhhhhhhhhhhhhhh:   :hhho                         
-                        -ddh+   -hhddddddddddddddddddhddy-   +hdh-                        
-                        oddd`  `hddddddddddddddddddddddddh`  `ddds                        
-                        hddy   .dddddddddddddddddddddddddd.   yddh                        
-                        hddy   `dddddddddddddddddddddddddd`   yddh                        
-			sddd````odmdddddddddddddddddddddds````ddds
-			:mmm+````smmmmmmmmmmmmmmmmmmmmmms````+mmm:
-			 smmm:`//.-sdmmmmmmmmmmmmmmmmds-````:mmms
-			  ymmm/-sms.`.:/hmmmmmmmmy/:.``````/mmmy
-			   smmmy.+mmyoshmmmmmmmmmm-``````.ymmms
-			    :dmmms+shdddmmmmmmmmmm/````-smmmd/
-			      +dmNmds:./NNNNNNNNNN/.:odmNmd+
-				:sdNNNNmNNNNNNNNNNmNNNNms:
-				  -+shmNNNNNNNNNNmhs+-`
-     					`.-::::::-.`
-                                                  
-                                    \033[91;1m
+                                                      
+                          `.-:://++++//::-.`                          
+                      .:+oss++/::----::/++sso+:.                      
+                  `:+ss+:.`                `.:+ss+-`                  
+                -+so/.                          ./ss+.                
+              -os+-                                -+so-              
+            .+s+.    `                               .+s+.            
+           :so.    `::::--`       ``       `.-::::-    -os:           
+          +s+`     -:. `.-::-::::::::::::-::-.`  ::`    `+s/          
+         +s/       ::`     `.``        ````      -:.      /s+         
+        /s+        -:.                           ::`       +s/        
+       -so`       .::`                           -:-       `os.       
+       +s-       .:-                              .:-       :s+       
+      .ss        ::`                               -:.      `ss`      
+      -s+       `:-                                .:-       os.      
+      :s+       `:-                                .:-       +s-      
+      -s+        -:`                               -:.       +s-      
+      `ss`       .:-                              `:-       `ss`      
+       +s:        --.                            `--`       :s+       
+       .so`        .--`                        `.--`       `os.       
+        /s/   `.-..``.---.```             ``..--.`         /s/        
+         +o/  .-----.  ``..----.`     .-----..`           /o+         
+          /s/`  `--.--`    `--`         .-.             `+o/          
+           :oo.  `--..-------`           --            .oo:           
+            .+o/. `.-.````````           --`         ./o+`            
+              -+o/. `..------.           --        ./o+-              
+                ./oo:.     .-.           --     .:oo/.                
+                  `-/oo/-.`.-.           --`.:/oo/-`                  
+                      .:/ooo+/::------::/+ooo/:.                      
+                          `.--:///////::--.`                  \033[91;1m
 
              Powered by:\033[97m Iqbalz Noobs                  
    \033[96;1mLife Of Programmer\033[91;1m
