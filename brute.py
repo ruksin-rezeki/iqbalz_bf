@@ -58,7 +58,7 @@ banner()
 email_target = str(raw_input(GL+" Masukkan ID Target\033[33;1m: "))
 password_list = str(raw_input(WW+" Masukkan File Wordlist \033[95m[ pass.txt ] \033[92;1m: "))
 login = 'https://www.facebook.com/login.php?login_attempt=1'
-useragen_cuk = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Geck')]
+useragen_cuk = [('Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1','Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Geck','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36','Mozilla/5.0 (Windows 10; rv:41.0) Gecko/41.0 Firefox/41.0')]
 
 def pil():
                 print GG+" "
@@ -141,31 +141,33 @@ def pass_noobs():
 def runn_noobs():
          global password_list
          nob = GG+"""
+	                                `...--...`                                        
+                                   .:/osyyyyyyyyyyso+:.                                   
+                                -/syyyyyso++//++osyyyyys+-                                
+                              :syyyy+:.            .:+yyyys:`                             
+                            -syyyo-                    -oyyys-                            
+                          `+hhhs..yys+:` ..---...``:+syy..shhh+`                          
+                         `shhh/  /hhhhhhhhhhhhhhhhhhhhhh/  /hhhs`                         
+                         ohhh:   :hhhhhhhhhhhhhhhhhhhhhh:   :hhho                         
+                        -ddh+   -hhddddddddddddddddddhddy-   +hdh-                        
+                        oddd`  `hddddddddddddddddddddddddh`  `ddds                        
+                        hddy   .dddddddddddddddddddddddddd.   yddh                        
+                        hddy   `dddddddddddddddddddddddddd`   yddh                        
+			sddd````odmdddddddddddddddddddddds````ddds
+			:mmm+````smmmmmmmmmmmmmmmmmmmmmms````+mmm:
+			 smmm:`//.-sdmmmmmmmmmmmmmmmmds-````:mmms
+			  ymmm/-sms.`.:/hmmmmmmmmy/:.``````/mmmy
+			   smmmy.+mmyoshmmmmmmmmmm-``````.ymmms
+			    :dmmms+shdddmmmmmmmmmm/````-smmmd/
+			      +dmNmds:./NNNNNNNNNN/.:odmNmd+
+				:sdNNNNmNNNNNNNNNNmNNNNms:
+				  -+shmNNNNNNNNNNmhs+-`
+     					`.-::::::-.`
                                                   
-                  `.-://////:-.`                  
-              .:+o+:-..````..-:+o+:.              
-           `:o+-`                `:+o:`           
-         `/o:`                      `:o/`         
-        -s/`  .-..`            `..--` `/s-        
-       /o.   `:.`.-:----------:-.``:-   .o/       
-      /o`    .:`    `              --    `o/      
-     -s.     .:`                   --     .s-     
-     o/     .:`                     --     +o     
-    .s-     :.                      `:`    -s`    
-    .s.     :.                      `:`    .s.    
-    .s-     --                      .:     -s.    
-     o/     `-.                    `-.     /o     
-     -s.     `--`                `.-`     .s-     
-      /o` ----``..--..`    `...--.`      `o/      
-       /o. `----`  `-.      `-.         .o/       
-        -o:  -.......        ..       `:o-        
-         `:o:``....--        ..     `:o:`         
-           `:+/-`  `-        ..  `-/+:`           
-              `-/+///..````..://+/-`              
-                  `.-::////::-.` \033[91;1m
+                                    \033[91;1m
 
-   Powered by:\033[97m Iqbalz Noobs                  
-                  \033[96;1mLife Of Programmer\033[91;1m
+             Powered by:\033[97m Iqbalz Noobs                  
+   \033[96;1mLife Of Programmer\033[91;1m
       
       """
 
