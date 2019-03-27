@@ -114,7 +114,7 @@ def main():
         print " "
 def iqbalz(iqbalz_password):
   try:
- 	sys.stdout.write(GG+"[\033[91m+\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+iqbalz_password)
+ 	sys.stdout.write(GG+"\n[\033[91m+\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+iqbalz_password)
 	sys.stdout.flush()
 	noobs.addheaders = [('User-agent', random.choice(useragents))]
 	site = noobs.open(login)
