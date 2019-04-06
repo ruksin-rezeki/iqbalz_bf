@@ -1,6 +1,6 @@
 #!usr
 # -*- coding: UTF-8 -*-
-# created by: iqbalz noobs
+# mod by: iqbalz noobs
 # team: life of programmer
 
 
@@ -47,7 +47,7 @@ def banner():
     print GG+"  √=============================================√"
     print GL+"  |••••••   NEW TOOLS HACK FACEBOOK BF.   ••••••|"
     print GG+"  √=============================================√"
-    print WW+"  |          CREATED BY: IQBALZ NOOBS           |"
+    print WW+"  |            MOD BY: IQBALZ NOOBS             |"
     print GL+"  |       Berdoa Dulu Sebelum Menggunakan       |"
     print WW+"  |            FACEBOOK: Iqbalznoobs            |"
     print Y+"  |             INSTAGRAM: IQBALZ5              |"
