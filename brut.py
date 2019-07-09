@@ -35,7 +35,7 @@ def login():
                         print " Login gagal..."
                         
         else:
-                bruteforce()
+                brutefor()
                 
 
 
