@@ -154,7 +154,7 @@ def brutefor():
                                                                                                 elif "www.facebook.com" in js["error_msg"]:
                                                                                                         print "  Cekpoint : " + san11
                                                                                                 else:
-                                                                                              
+                                                                                                        print " Gagal ....."
 
                                                                         
 
