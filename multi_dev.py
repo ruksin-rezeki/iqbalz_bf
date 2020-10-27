@@ -4,7 +4,7 @@
 #  Versi : 0.3
 
 import requests, json
-from brute import brute
+from br import brute
 from multiprocessing import Process
 from multiprocessing.pool import Process, ThreadPool
 from useragents import baner, multi_ban, deviv, divev, download
