@@ -128,10 +128,10 @@ if __name__ == '__main__':
 				print " \n\033[95;1m   Silahkan Ikuti Instagram saya \033[96;1m(IqbalDev)"
 				raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Instagram..")
 				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
-				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
+				os.system('brute.py' if os.name == 'nt' else 'python2 brute.py')
 			except KeyboardInterrupt:
 				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
-				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
+				os.system('brute.py' if os.name == 'nt' else 'python2 brute.py')
 		else:
 			print "\n\033[90;1m Pilih yang Bener lah Kampprett.. "
 	except KeyboardInterrupt:
